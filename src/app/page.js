@@ -2,7 +2,6 @@
 "use Client"
 import React from 'react';
 import { TfiMenu } from "react-icons/tfi";
-import Link from 'next/link';
 import { IoSearchSharp } from "react-icons/io5";
 import { PiShoppingCartLight } from "react-icons/pi";
 import { FaRegHeart } from "react-icons/fa";
