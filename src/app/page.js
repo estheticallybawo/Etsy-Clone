@@ -17,7 +17,7 @@ const page = () => {
             <img src ='esty logo.png' className='w-20  '/>
           </a>
         
-          <h3 className='flex space-x-10 gap-2 font-sans font-semibold items-center hover:bg-gray-100 rounded-full px-5 py-3 transition-all text-sm'><TfiMenu size={18} /> Categories </h3>
+          <h3 className='flex space-x-10 gap-2 font-sans font-semibold items-center hover:bg-gray-100 rounded-full px-5 py-3 transition-all text-sm active:'><TfiMenu size={18} /> Categories </h3>
           <div className='relative flex w-full max-w-[52rem] gap-0'>
             <input
                 type="text"
