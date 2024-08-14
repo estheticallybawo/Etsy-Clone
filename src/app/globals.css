@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+#Header{
+     width: 80%;
+     border-bottom: 4px solid rgb(218, 216, 216);
+     padding: 50px;
+     margin: 20px;
+     height: 100px;
+     display: flex;
+
+   
+}
