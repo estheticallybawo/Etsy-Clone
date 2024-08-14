@@ -10,42 +10,53 @@ import { ImGift } from "react-icons/im";
 
 const page = () => {
   return (
-    <span id='Header' className='flex space-x-4'>
-    <nav  className='flex space-x-4'>
-      <div className="w-full max-w-xl flex mx-auto p-20 text-xl">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-          <Link href ="/">
-            <img className= 'flex space-x-4'src ="esty logo.png"/>
-          </Link>
+    <div>
+    <header className='flex justify-between items-center py-6 px-6 space-x-4 md:px-32 gap-4'>
+          <a href ="#">
+            <img src ='esty logo.png' className='w-20'/>
+          </a>
         
           <h3 className='flex space-x-4'><TfiMenu /> Categories </h3>
-          <Link href ="">
-          <PiShoppingCartLight />
-          </Link>
-          <Link href="">
-          <FaRegHeart />
-          </Link>
-          <Link href="">
-          <ImGift />
-          </Link>
+          
             <input
                 type="text"
-                className="w-full placeholder-gray-400 text-gray-900 p-4 flex space-x-4"
+                className="placeholder-gray-400 text-gray-900 p-4 flex space-x-30 w-96 rounded-lg"
                 placeholder="Search for anything"/>
-            <button className="bg-orange-600 text-white flex space-x-4 p-4"><IoSearchSharp /></button>
-
-            <Link href="">
-            <h3 className='flex space-x-4 '><ImGift /> Gift Mode</h3>
-            </Link>
-           
-            <Link href=""> <h3>Shop Birthday Gifts</h3></Link>
-            <Link href=""> <h3>Home Favorites</h3></Link>
-            <Link href=""> <h3>Fashion Finds</h3></Link>
-            <Link href=""> <h3>Registry</h3></Link>
-        </div>
-        </div>
-      </nav>
-      </span>
+            <button className="bg-orange-600 hover:bg-orange-300 hover:rounded-lg transition-all text-white flex space-x-4 p-4"><IoSearchSharp /></button>
+  <ul className='flex justify-between items-center text-base xl:flex gap-6'>
+          <li className='hover:bg-gray-400 rounded-full px-4 py-3 transition-all'>
+            <a href='#'>
+              Sign In
+            </a>
+          </li>
+        <li className='hover:bg-blue-200 rounded-full px-3 py-3 transition-all '>
+          <a href ="#">
+              <PiShoppingCartLight /></a>
+        </li>
+        <li className='hover:bg-blue-200 rounded-full px-3 py-3 transition-all' >
+          <a href="#">
+              <FaRegHeart /></a>
+        </li>
+        <li className='hover:bg-blue-200 rounded-full px-3 py-3 transition-all' >
+          <a href="#">
+          <ImGift /></a>
+          </li>
+          </ul>
+ 
+      </header>
+      <div>
+ <ul className='flex justify-between items-center'>
+          <li><a href="">
+            <h3><ImGift /> Gift Mode</h3>
+            </a>
+            </li>
+           <li> <a href=""> <h3>Shop Birthday Gifts</h3></a></li>
+           <li> <a href=""> <h3>Home Favorites</h3></a></li>
+           <li> <a href=""> <h3>Fashion Finds</h3></a></li>
+           <li> <a href=""> <h3>Registry</h3></a></li>
+            </ul>
+            </div>
+      </div>
   )
 }
 
