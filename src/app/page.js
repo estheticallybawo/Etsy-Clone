@@ -32,7 +32,7 @@ const page = () => {
             <input
                 type="text"
                 className="w-full placeholder-gray-400 text-gray-900 p-4"
-                placeholder="Search"/>
+                placeholder="Search for anything"/>
             <button className="bg-orange-600 text-white p-4"><IoSearchSharp /></button>
 
             <Link href="">
