@@ -5,57 +5,64 @@ import { TfiMenu } from "react-icons/tfi";
 import { IoSearchSharp } from "react-icons/io5";
 import { PiShoppingCartLight } from "react-icons/pi";
 import { FaRegHeart } from "react-icons/fa";
-import { ImGift } from "react-icons/im";
+import { GrGift } from "react-icons/gr";
+;
 
 const page = () => {
   return (
-    <div>
-    <header className='flex justify-between items-center py-6 px-6 space-x-4 md:px-32 gap-4'>
+    <>
+    <div class="header" >
+    <header className='flex items-center px-5 justify-between space-x-2 py-2 gap-4'>
           <a href ="#">
-            <img src ='esty logo.png' className='w-20'/>
+            <img src ='esty logo.png' className='w-20  '/>
           </a>
         
-          <h3 className='flex space-x-4'><TfiMenu /> Categories </h3>
-          
+          <h3 className='flex space-x-10 gap-2 font-sans font-semibold items-center hover:bg-gray-100 rounded-full px-5 py-3 transition-all text-sm'><TfiMenu size={18} /> Categories </h3>
+          <div className='relative flex w-full max-w-[48rem]'>
             <input
                 type="text"
-                className="placeholder-gray-400 text-gray-900 p-4 flex space-x-30 w-96 rounded-lg"
+                className="placeholder-gray-400 text-gray-900 p-4 flex py-3 px-5 space-x-30 min-w-full rounded-full right-1 top-10"
                 placeholder="Search for anything"/>
-            <button className="bg-orange-600 hover:bg-orange-300 hover:rounded-lg transition-all text-white flex space-x-4 p-4"><IoSearchSharp /></button>
-  <ul className='flex justify-between items-center text-base xl:flex gap-6'>
-          <li className='hover:bg-gray-400 rounded-full px-4 py-3 transition-all'>
+            <button className="bg-orange-600 hover:bg-orange-300 py-2 px-2 rounded-full transition-all text-white flex hover:rounded-s-md space-x-4 p-8 border-0 !absolute right-1 top-1">
+              <a href ="#"><IoSearchSharp size={25}/></a></button>
+            </div>
+  <ul className='flex justify-between items-center text-base xl:flex gap-2'>
+          <li className='hover:bg-gray-100 rounded-full px-4 py-3 transition-all text-sm'>
             <a href='#'>
               Sign In
             </a>
           </li>
         <li className='hover:bg-blue-200 rounded-full px-3 py-3 transition-all '>
           <a href ="#">
-              <PiShoppingCartLight /></a>
+              <PiShoppingCartLight size={25}/></a>
+        </li>
+
+        <li className='hover:bg-blue-200 rounded-full px-3 py-3 transition-all' >
+        <a href ="#">
+        <FaRegHeart size={25}/></a>
         </li>
         <li className='hover:bg-blue-200 rounded-full px-3 py-3 transition-all' >
-          <a href="#">
-              <FaRegHeart /></a>
-        </li>
-        <li className='hover:bg-blue-200 rounded-full px-3 py-3 transition-all' >
-          <a href="#">
-          <ImGift /></a>
+          <a href ="#">
+          <GrGift size={25}/></a>
           </li>
           </ul>
- 
-      </header>
-      <div>
- <ul className='flex justify-between items-center'>
+          </header>
+     
+      <div className='px-0 py-0  border-b-2 border-gray-300'>
+ <ul className='flex items-center justify-center gap-5 font-sans pb-0.5 space-y-0 font-semibold text-sm '>
           <li><a href="">
-            <h3><ImGift /> Gift Mode</h3>
+            <h3 className='flex items-center gap-2 hover:bg-gray-100 px-2.5 py-2.5 rounded-full  transition-all' >
+          <GrGift size={15}/> Gift Mode</h3>
             </a>
             </li>
-           <li> <a href=""> <h3>Shop Birthday Gifts</h3></a></li>
-           <li> <a href=""> <h3>Home Favorites</h3></a></li>
-           <li> <a href=""> <h3>Fashion Finds</h3></a></li>
-           <li> <a href=""> <h3>Registry</h3></a></li>
+           <li> <a href=""> <h3 className='hover:bg-gray-100 px-3 py-3 rounded-full transition-all'>Shop Birthday Gifts</h3></a></li>
+           <li> <a href=""> <h3 className='hover:bg-gray-100 px-3 py-3 rounded-full transition-all'>Home Favorites</h3></a></li>
+           <li> <a href=""> <h3 className='hover:bg-gray-100 px-3 py-3 rounded-full transition-all'>Fashion Finds</h3></a></li>
+           <li> <a href=""> <h3 className='hover:bg-gray-100 px-3 py-3 rounded-full transition-all'>Registry</h3></a></li>
             </ul>
             </div>
       </div>
+  </>
   )
 }
 
