@@ -1,0 +1,25 @@
+.container{
+     width: 350px;
+     height: 550px;;
+     background-color: white;
+     overflow-y: scroll;
+     overflow-x: hidden;
+     position: absolute;
+     top: 70px;
+     left: 120px;
+     box-shadow: 2px 2px 5px black;
+     z-index: 999;
+     padding: 10px 0;
+     border-radius: 10px;
+}
+
+.list {
+     padding: 12px 6px 12px 18px;
+     list-style: none;
+     width: 100%;
+     transition: all 0.3s ease;
+}
+.list:hover{
+text-decoration: underline;
+background-color: whitesmoke;
+}
