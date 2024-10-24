@@ -11,9 +11,9 @@ return (
           <h1 className="flex justify-center text-xl pt-20">Discover the latest trends from small shops</h1>
      <div className="flex justify-center ">
           <ul className="flex justify-between items-center text-base xl:flex gap-5">
-               <li>
+               <li><a href="">
                     <img src="felted decor.avif" width="100px" className="rounded-full"/>
-                         <p>Felted Decor</p>
+                         Felted Decor</a>
                </li>
                <li><a href="#" className="align-bottom">
                     <img src="rings.avif" width="100px" className="rounded-full"/>
