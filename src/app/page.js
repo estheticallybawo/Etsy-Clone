@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Navbar from './Navbar';
-import Latest from '@/component/Latest';
+import Latest from '@/component/Hero/Latest';
 
 
 
