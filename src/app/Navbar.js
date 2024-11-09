@@ -74,7 +74,6 @@ const Navbar = () => {
            <li> <a href=""> <h3 className='hover:bg-gray-100 px-3 py-3 rounded-full transition-all'>Registry</h3></a></li>
             </ul>
             </div>
-            <br/>
       </div>
   </>
   )

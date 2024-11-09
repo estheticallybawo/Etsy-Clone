@@ -1,45 +1,45 @@
 "use Client"
 import React from "react";
-import styles from "./latest.module.css";
-
+import Styles from "./latest.module.css";
 
 
 
 const Latest = () => {
 return (
      <>
-     <main className="hero--section">
-     <div>
-          <h1 className="flex justify-center mb-5 leading-normal text-xl pt-20">Discover the latest trends from small shops</h1>
-     <div className="flex justify-center ">
-          <ul className="flex justify-between items-center text-base xl:flex gap-5">
-               <li><a href="">
-                    <img src="warm.avif" width="100px" className="rounded-full"/>
+     <main className={Styles.hero}>
+
+     <div className={Styles.herotext}>
+          <h2 className="flex justify-center mb-5 leading-normal text-xl pt-10">Discover the latest trends from small shops</h2>
+          </div>
+     <div className="flex justify-center gap-4 ">
+          <ul className="flex justify-around items-center text-base xl:flex gap-5">
+               <li className={Styles.list}><a href="">
+                    <img className={Styles.img} src="warm.avif" width="160px" className="rounded-full"/>
                          <p className="text-center">Warm Minimalism </p>
                          </a>
                </li>
-               <li><a href="#" className="align-bottom">
-                    <img src="rings.avif" width="100px" className="rounded-full"/>
+               <li className={Styles.list}><a href="#">
+                    <img className={Styles.img} src="rings.avif" width="160px" className="rounded-full"/>
                        <p> Vintage Rings </p></a>
                </li>
-               <li><a href="">
-                    <img src="chunky blanket.avif" width="100px" className="rounded-full"/>
-                         Chunky Blanket</a>
+               <li className={Styles.list}><a href="">
+                    <img className={Styles.img} src="chunky blanket.avif" width="160px" className="rounded-full"/>
+                        <p>Chunky Blanket</p> </a>
                </li>
-               <li><a href="">
-                    <img src="bangles.avif" width="100px"className="rounded-full"/>
-                         Bangles</a>
+               <li className={Styles.list}><a href="">
+                    <img className={Styles.img} src="bangles.avif" width="160px"className="rounded-full"/>
+                        <p>Bangles</p> </a>
                </li>
-               <li><a href="">
-                    <img src="grandpacore.avif" width="100px" className="rounded-full"/>
-                         Grandpacore</a>
+               <li className={Styles.list}><a href="">
+                    <img className={Styles.img} src="grandpacore.avif" width="160px" className="rounded-full"/>
+                         <p>Grandpacore</p></a>
                </li>
-               <li><a href="">
-                    <img src="jacket.avif" width="100px" className="rounded-full"/>
-                         Vintage Trench Coats </a>
+               <li className={Styles.list}><a href="">
+                    <img className={Styles.img} src="jacket.avif" width="160px" className="rounded-full"/>
+                        <p>Vintage Trench Coats</p>  </a>
                </li>
           </ul>
-     </div>
      </div>
      </main>
      </>
