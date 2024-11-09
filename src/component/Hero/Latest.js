@@ -15,28 +15,28 @@ return (
      <div className="flex justify-center gap-4 ">
           <ul className="flex justify-around items-center text-base xl:flex gap-5">
                <li className={Styles.list}><a href="">
-                    <img className={Styles.img} src="warm.avif" width="160px" className="rounded-full"/>
+                    <img  src="warm.avif" width="160px" className="rounded-full"/>
                          <p className="text-center">Warm Minimalism </p>
                          </a>
                </li>
                <li className={Styles.list}><a href="#">
-                    <img className={Styles.img} src="rings.avif" width="160px" className="rounded-full"/>
+                    <img  src="rings.avif" width="160px" className="rounded-full"/>
                        <p> Vintage Rings </p></a>
                </li>
                <li className={Styles.list}><a href="">
-                    <img className={Styles.img} src="chunky blanket.avif" width="160px" className="rounded-full"/>
+                    <img src="chunky blanket.avif" width="160px" className="rounded-full"/>
                         <p>Chunky Blanket</p> </a>
                </li>
                <li className={Styles.list}><a href="">
-                    <img className={Styles.img} src="bangles.avif" width="160px"className="rounded-full"/>
+                    <img src="bangles.avif" width="160px"className="rounded-full "/>
                         <p>Bangles</p> </a>
                </li>
                <li className={Styles.list}><a href="">
-                    <img className={Styles.img} src="grandpacore.avif" width="160px" className="rounded-full"/>
+                    <img src="grandpacore.avif" width="160px" className="rounded-full"/>
                          <p>Grandpacore</p></a>
                </li>
                <li className={Styles.list}><a href="">
-                    <img className={Styles.img} src="jacket.avif" width="160px" className="rounded-full"/>
+                    <img  src="jacket.avif" width="160px" className="rounded-full"/>
                         <p>Vintage Trench Coats</p>  </a>
                </li>
           </ul>
