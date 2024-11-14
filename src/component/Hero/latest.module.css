@@ -6,17 +6,18 @@
       font-size: 1.5rem;
       padding: 5px;
       margin: 10px;
-      font-weight: bold
+      font-weight: bold;
+      font-family: san-serif;
 }
 .list {
       text-align: center;
-      
+      margin: auto
       
       
 }
 .list:hover {
       border: 1px solid #ccc;
-      width: 170px;
+      width: 160px;
       height: 200px;
       margin: auto;
       border-radius: 10px;

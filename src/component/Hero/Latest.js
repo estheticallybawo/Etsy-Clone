@@ -13,9 +13,9 @@ return (
           <h2 className="flex justify-center mb-5 leading-normal text-xl pt-10">Discover the latest trends from small shops</h2>
           </div>
      <div className="flex justify-center gap-4 ">
-          <ul className="flex justify-around items-center text-base xl:flex gap-5">
+          <ul className="flex justify-center items-center text-base xl:flex gap-5">
                <li className={Styles.list}><a href="">
-                    <img  src="warm.avif" width="160px" className="rounded-full"/>
+                    <img  src="warm.avif" width="160px" className="rounded-full align-middle"/>
                          <p className="text-center">Warm Minimalism </p>
                          </a>
                </li>

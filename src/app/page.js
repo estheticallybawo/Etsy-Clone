@@ -3,7 +3,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Latest from '@/component/Hero/Latest';
-
+import Cards from '@/component/Cards';
 
 
 const page = () => {
@@ -11,6 +11,7 @@ const page = () => {
     <>
     <Navbar />
     <Latest />
+    <Cards />
     </>
   )
 }
