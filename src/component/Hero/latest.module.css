@@ -11,21 +11,24 @@
 }
 .list {
       text-align: center;
-      margin: auto
-      
+      margin: auto;
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+
       
 }
 .list:hover {
       border: 1px solid #ccc;
+      padding: 0;
       width: 160px;
-      height: 200px;
-      margin: auto;
+      height: 180px;
       border-radius: 10px;
      transition: box-shadow .5s;
      background: #fff;
-     box-shadow: 0 0 11px rgba(33,33,33,.2); 
-
-}
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+     transform: translateY(-5px);
+      
+    }
+    
 .img {
       display: block;
       align-items: center;
